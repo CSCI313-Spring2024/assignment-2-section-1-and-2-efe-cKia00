@@ -25,7 +25,9 @@
         <a class="btn btn-light" href="#">Get In Touch</a>
         <!-- <Address><i>Address: 1209 Savior St N, Darlton, MT 77812</i></Address> -->
     </header>
-    <div class="container-fluid text-center my-3"><p class="h1">Hobbies</p></div>   
+
+    <div class="container-fluid text-center my-3"><p class="h1">Hobbies</p></div>
+
     <div class="container text-center">
         <div class="row">
             <div class="col-sm-4">
@@ -112,8 +114,24 @@
                 </tbody>
             </table>
         </div>
-        <div class="col-sm-6">
-            
+        <div class="col-sm-6 border px-4">
+           <p class="h3 text-center">Get In Touch</p>
+           <form>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="exampleFormControlTextarea1">Leave a message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
     </div>
   </body>
