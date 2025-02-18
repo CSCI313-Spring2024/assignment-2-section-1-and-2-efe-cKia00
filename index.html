@@ -16,24 +16,35 @@
               <img src="img/nvbar.jpg" alt="Efe_NDSU_logo" width="44" height="38" class="d-inline-block align-text-left">
                 Personal portfoio
             </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#Welcome">Greetings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#My Story">Bio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Get In Touch">Contact</a></li>
+              </ul>
+            </div>
         </div>
     </nav>
 
     <section>
     <header class="bg-dark text-white text-center py-5">
-        <h1>Welcome to my Personal Page</h1>
+        <h1 id="Welcome">Welcome to my Personal Page</h1>
         <P class="container-fluid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nobis expedita quisquam tempora deleniti animi assumenda vero illum, suscipit optio consequuntur voluptatum perferendis, quibusdam numquam facilis. Nam enim commodi delectus deleniti unde et adipisci earum consequatur nobis nisi, eius in inventore sunt repellendus quibusdam placeat amet esse sed ut itaque?</P>
         <a class="btn btn-light" href="#">Get In Touch</a>
         <!-- <Address><i>Address: 1209 Savior St N, Darlton, MT 77812</i></Address> -->
     </header>
 
-    <div class="container-fluid text-center my-3"><p class="h1">Hobbies</p></div>
+    <div class="container-fluid text-center my-3"><p id="Skills" class="h1">Skills</p></div>
 
     <div class="container text-center">
         <div class="row">
             <div class="col-sm-4">
                 <img alt="picture of buildings" class="rounded image-fluid image-thumbnail container px-0" src="img/aes.jpg">
-                <p class="py-2 px-2"><b>Architecture</b> dolor sit amet consectetur adipisicing elit. Accusamus deleniti sed suscipit deserunt vel, fugit iure similique quas, ipsam ratione sequi consequatur commodi distinctio tempore!</p>
+                <p class="py-2 px-2"><b>Architectural design</b> dolor sit amet consectetur adipisicing elit. Accusamus deleniti sed suscipit deserunt vel, fugit iure similique quas, ipsam ratione sequi consequatur commodi distinctio tempore!</p>
             </div>
             <div class="col-sm-4">
                 <img alt="picture of code"  class="rounded container px-0" src="img/code.jpg">
@@ -45,12 +56,11 @@
             </div>
         </div>
     </div>
-    </section>
 
     <div class="bg-dark text-white text-center row py-5">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-            <p class="h3 my-2">My Story</p>
+            <p id="My Story" class="h3 my-2">My Story</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores et quidem rerum dolorem, delectus saepe dolor aliquid eaque enim voluptates minima dicta consequuntur, placeat eveniet consequatur illum. Amet ipsa nihil enim minus totam reprehenderit molestias? Voluptas, vitae quasi a earum quas ullam dolor facilis ratione quod, ipsam nihil. Voluptatem consequuntur magnam repellat aut, nobis officia amet sit, nam sint officiis id odio vel voluptate maiores! Soluta tempora nisi commodi molestias culpa? Et nulla magnam est, molestias harum in atque iure.</p>
         </div>
         <div class="col-sm-3"></div>
@@ -116,7 +126,7 @@
             </table>
         </div>
         <div class="col-sm-6 px-4">
-           <p class="h3 text-center">Get In Touch</p>
+           <p id="Get In Touch" class="h3 text-center">Get In Touch</p>
            <form>
             <div class="mb-3">
               <label class="form-label">Name</label>
@@ -171,5 +181,6 @@
         </ol> 
       </div>
     </div>
+  </section>
   </body>
 </html>
